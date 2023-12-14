@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       .container{
+        background: #00000078;
+        color: #fff;
+        padding: 20px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        gap: 15px;
+       }
+       .container button{
+        border: none;
+        background-color: #c300c6;
+        padding: 8px;
+        border-radius: 10px;
+        color: #fff;
+       }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h2>Background Color : <span id="BG-Color"></span></h2>
+            <button id="btn">Generate New Color</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
